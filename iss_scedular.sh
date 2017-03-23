@@ -18,8 +18,8 @@ bird=$1
 freq=$2
 
 #calculate best passes
-cat ~/iss_igate/amateur.txt
-cat ~/.predict/predict.qth
+#cat ~/iss_igate/amateur.txt
+#cat ~/.predict/predict.qth
 for i in {00..23}
 do
 var1[10#$i]=$(predict -t ~/iss_igate/amateur.txt -q ~/.predict/predict.qth -p "ISS (ZARYA)" $(date -d "+$i hour" +%s) | awk '{ if($5>=30) print $0}' |sort -u | head -1)
