@@ -5,7 +5,16 @@ PSAT (NO-84) is much easier to use on 145.825Mhz<br>
 <b>Pre req installs</b><br>
 sudo apt-get install sox<br>
 Kalibarte your sdr dongle first with the Kal utility<br> 
-
+<b>Installing Kalibartion details</b>
+cd ~/rtl<br>
+sudo apt-get install libtool autoconf automake libfftw3-dev<br>
+git clone https://github.com/asdil12/kalibrate-rtl.git<br>
+cd kalibrate-rtl<br>
+git checkout arm_memory<br>
+./bootstrap<br>
+./configure<br>
+make<br>
+sudo make install<br>
 Kal -s GSM900 then select the strogest station<br>
 Kal -c 36<br>
 Testing with local APRS<br>
