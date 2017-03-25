@@ -2,6 +2,8 @@
 This repository will have all the code for my automated ISS Igate code.<br>
 The ISS have two frequencies for IGATE  437.550mhz and 145.825Mhz<br>
 PSAT (NO-84) is much easier to use on 145.825Mhz<br>
+<b>Pre req installs<br><br>
+sudo apt-get install sox<br>
 Kalibarte your sdr dongle first with the Kal utility<br> 
 
 Kal -s GSM900 then select the strogest station<br>
