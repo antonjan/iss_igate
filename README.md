@@ -25,3 +25,7 @@ APRS: ZS0TRG-1>BEACON,ZS4OIL-1*,ZS0ERB-5*,WIDE3-1:This is the Parys APRS digiPea
 APRS: ZS0TRG-1>APN382,ZS4OIL-1*,ZS0ERB-5*,WIDE3-1:!2654.29SV02724.45E#PHG5360/ Parys VHF 1200 bps (144.800 MHz) APRS Digi<br>
 APRS: ZS0ERB-5>APN391:!2623.43S/02800.03E#PHG5430 W3, GAU3-3, PLATBERG WALKERVILLE<br>
 APRS: ZS4OIL-1>ID,ZS0ERB-5*,WIDE3-2:ZS4OIL-1/R ZS4OIL-3/G<br>
+<hr>
+I found this script that will aoutomate the configeration for you.<br>
+https://github.com/mmiller7/aprs-igate-rtl-sdr-setup/blob/master/configure_pymultimonaprs.sh<br>
+
